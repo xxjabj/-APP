@@ -1,0 +1,96 @@
+.gri-header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 17.0667vw;
+    padding: 5.3333vw 2.6667vw 0 2.6667vw;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeeeee;
+    z-index: 999;
+}
+
+.gri-header span {
+    font-size: 3.2vw;
+    color: #fff;
+}
+
+.gri-header span:last-child {
+    color: #dd7d59
+}
+
+.gri-section {
+    padding: 19.7333vw 2.6667vw 0 2.6667vw;
+    color: #333;
+    font-size: 3.2vw;
+}
+
+.gri-section input {
+    display: block;
+    padding-bottom: 1.3333vw;
+}
+
+.gri-section .gri-line {
+    height: 1px;
+    margin-bottom: 2.6667vw;
+    border: 1px dashed #f2f2f2;
+}
+
+.gri-section textarea {
+    width: 94.6667vw;
+    padding: 2.6667vw 0 0 2.6667vw;
+    margin-bottom: 4vw;
+    background-color: #f5f5f5;
+    border-radius: 2.9333vw;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.gri-section textarea::placeholder {
+    color: #ccc;
+    font-size: 2.6667vw;
+}
+
+.gri-section input::placeholder {
+    color: #ccc;
+    font-size: 2.6667vw;
+}
+
+.gri-section img {
+    display: block;
+    width: 13.3333vw;
+    margin-bottom: 5.3333vw;
+}
+
+.gri-section p {
+    margin-bottom: 2.6667vw;
+    font-size: 2.6667vw;
+}
+
+.gri-section .gri-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5.333vw;
+}
+
+.gri-content span {
+    padding: 0.8vw 1.0667vw;
+    margin-bottom: 2.6667vw;
+    border-radius: 1.3333vw;
+    margin-right: 5.3333vw;
+    font-size: 2.6667vw;
+    color: #999;
+    background-color: #eeeeee;
+}
+
+.gri-section input:last-of-type {
+    width: 41.0667vw;
+    height: 11.7333vw;
+    margin: 0 auto;
+    background-color: #dd7d59;
+    border-radius: 2.9333vw;
+    color: #fff;
+    line-height: 11.7333vw;
+}

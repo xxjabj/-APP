@@ -1,0 +1,22 @@
+img {
+    display: block;
+    width: 73.8667vw;
+    margin: 60vw auto 0;
+}
+
+p {
+    width: 20vw;
+    height: 5.333vw;
+    background-color: #ececec;
+    border-radius: 0.6667vw;
+    margin: 6.9333vw auto 2.667vw;
+    font-size: 3.2vw;
+    text-align: center;
+    line-height: 5.333vw;
+    color: #666;
+}
+
+.sp4-3 {
+    margin-top: 0;
+    color: #fff;
+}

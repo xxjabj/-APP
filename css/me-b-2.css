@@ -1,0 +1,63 @@
+.meb2-header {
+    position: fixed;
+    width: 100%;
+    height: 17.0667vw;
+    top: 0;
+    z-index: 999;
+}
+
+.meb2-header div:first-child {
+    height: 5.3333vw;
+    background-color: black;
+}
+
+.meb2-header div:last-child {
+    display: flex;
+    height: 11.7333vw;
+    padding: 0 2.6667vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meb2-header div img:first-of-type {
+    width: 2.1333vw;
+    height: 3.7333vw;
+}
+
+.meb2-header div span {
+    font-size: 3.2vw;
+    color: #000000;
+}
+
+.meb2-header div img:last-of-type {
+    visibility: hidden;
+    width: 4.2667vw;
+    height: 1.0667vw;
+}
+
+.meb2-section {
+    padding: 19.7333vw 2.6667vw 0 2.6667vw;
+}
+
+.meb2-section input {
+    display: block;
+    height: 11.7333vw;
+    width: 94.6667vw;
+    background-color: #dd7d59;
+    border-radius: 2.9333vw;
+    font-size: 4vw;
+    color: #fff;
+    line-height: 11.7333vw;
+    margin-bottom: 2.6667vw;
+}
+
+.meb2-section input:first-child {
+    text-indent: 2.6667vw;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.meb2-section input::placeholder {
+    font-size: 3.2vw;
+    color: #ccc;
+}

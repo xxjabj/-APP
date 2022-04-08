@@ -1,0 +1,162 @@
+.dea-header {
+    position: fixed;
+    width: 100%;
+    height: 17.0667vw;
+    padding: 5.3333vw 2.6667vw 0 2.6667vw;
+    top: 0;
+    background: -webkit-linear-gradient(left top, #59ddc6 0%, #70c0e5 100%);
+    z-index: 999;
+}
+
+.dea-header h3 {
+    font-size: 4.2667vw;
+    font-weight: 400;
+    text-align: center;
+    line-height: 11.7333vw;
+    color: #ffffff
+}
+
+.dea-section {
+    padding: 22.4vw 2.6667vw 0 2.6667vw;
+}
+
+.dea-section .dea-title {
+    margin-bottom: 2.6667vw;
+}
+
+.dea-section .dea-title p:first-child {
+    margin-bottom: 2.6667vw;
+    color: #999999;
+}
+
+.dea-section .dea-title p:first-child span {
+    padding: 0 0.5333vw;
+    margin-right: 3.3333vw;
+    border: #eee solid 0.2667vw;
+    border-radius: 1.0667vw;
+}
+
+.dea-section .dea-title p:first-child span:first-child {
+    border: none;
+    color: #ffffff;
+    background-color: #dd7d59;
+}
+
+.dea-section .dea-title p:nth-child(2) {
+    color: #000000;
+    margin-bottom: 1.3333vw;
+}
+
+.dea-section .dea-title p:last-child {
+    color: #000000;
+}
+
+.dea-section .dea-content .dea-incontent {
+    padding-bottom: 2.6667vw;
+    margin-bottom: 2.9333vw;
+    border-bottom: #f2f2f2 dashed 1px;
+}
+
+.dea-section .dea-content .dea-loading {
+    margin-bottom: 16vw;
+    font-size: 3.2vw;
+    color: #ccc;
+    text-align: center;
+}
+
+.dea-section .dea-content .dea-incontent .dea-upcontent {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    height: 5.3333vw;
+    margin-bottom: 1.3333vw;
+}
+
+.dea-section .dea-content .dea-incontent .dea-upcontent::before {
+    content: "";
+    position: absolute;
+    width: 5.3333vw;
+    height: 5.3333vw;
+    /* top: 0; */
+    background: url(../upload/ios_主页/mmexport1616436013652\(1\)@2x.png) no-repeat;
+    background-size: contain;
+}
+
+.dea-section .dea-content .dea-incontent .dea-upcontent p:first-child {
+    line-height: 5.3333vw;
+    color: #666666;
+    margin-left: 6.6667vw;
+}
+
+.dea-section .dea-content .dea-incontent .dea-upcontent p:last-child {
+    line-height: 5.3333vw;
+    color: #999;
+}
+
+.dea-section .dea-content .dea-incontent .dea-upcontent p:last-child img {
+    width: 3.2vw;
+}
+
+
+/* .gra-section .gra-content .gra-incontent .gra-midcontent {
+    height: 21.0667vw;
+} */
+
+.dea-section .dea-content .dea-incontent .dea-midcontent p {
+    margin-bottom: 1.3333vw;
+}
+
+.dea-section .dea-content .dea-incontent .dea-midcontent .dea-piccontent {
+    height: 16vw;
+}
+
+.dea-section .dea-content .dea-incontent .dea-midcontent .dea-piccontent img {
+    height: 100%;
+    margin-right: 4vw;
+}
+
+.dea-aside {
+    position: fixed;
+    display: block;
+    top: 99.3333vw;
+    right: 2.6667vw;
+    width: 10.9333vw;
+    z-index: 999;
+}
+
+.dea-aside img {
+    width: 100%;
+}
+
+.dea-infooter {
+    display: flex;
+    position: fixed;
+    height: 13.0667vw;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    justify-content: space-between;
+    z-index: 99999;
+    padding: 0 2.6667vw 1.0667vw 2.6667vw;
+    background: -webkit-linear-gradient(left top, #59ddc6 0%, #70c0e5 100%);
+}
+
+.dea-infooter .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.dea-infooter .item img {
+    width: 6.4vw;
+    height: 6.4vw;
+}
+
+.dea-infooter .item p {
+    color: #fff;
+}
+
+.dea-infooter .item:nth-child(3) p {
+    color: #dd7d59;
+}

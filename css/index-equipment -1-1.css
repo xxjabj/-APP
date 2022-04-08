@@ -1,0 +1,60 @@
+.ine1-1-header {
+    position: fixed;
+    width: 100%;
+    height: 17.0667vw;
+    top: 0;
+    z-index: 999;
+}
+
+.ine1-1-header div:first-child {
+    height: 5.3333vw;
+    background-color: black;
+}
+
+.ine1-1-header div:last-child {
+    display: flex;
+    height: 11.7333vw;
+    padding: 0 2.6667vw;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeeeee;
+}
+
+.ine1-1-header div img:first-of-type {
+    width: 2.1333vw;
+    height: 3.7333vw;
+}
+
+.ine1-1-header div span:nth-child(2) {
+    font-size: 3.2vw;
+    color: #000000;
+}
+
+.ine1-1-header div img:last-of-type {
+    width: 4.2667vw;
+    height: 1.0667vw;
+}
+
+.ine1-1-section {
+    padding: 17.0667vw 2.6667vw 0 2.6667vw;
+}
+
+.ine1-1-section .ine1-1-section-equ {
+    /* height: 49.3333vw; */
+    margin: 5.3333vw 0;
+}
+
+.ine1-1-section .ine1-1-section-equ div img {
+    width: 47.4667vw;
+    margin-bottom: 1.3333vw;
+}
+
+.ine1-1-section .ine1-1-section-equ h4,
+.ine1-1-section .ine1-1-section-equ p {
+    font-size: 3.2vw;
+    /* margin-bottom: 5.6vw; */
+}
+
+.ine1-1-section .ine1-1-section-equ h4 {
+    font-weight: 700;
+}

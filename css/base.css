@@ -1,0 +1,90 @@
+body {
+    /* CSS3 抗锯齿形 让文字显示的更加清晰 */
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+    /* min-width: 320px;
+    max-width: 750px; */
+    margin: 0 auto;
+    font-family: PingFang SC, -apple-system, Helvetica, sans-serif;
+    font-size: 2.6667vw;
+    color: #333;
+    line-height: 1.5;
+}
+
+
+/*点击高亮我们需要清除清除  设置为transparent 完成透明*/
+
+* {
+    -webkit-tap-highlight-color: transparent;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*在移动端浏览器默认的外观在iOS上加上这个属性才能给按钮和输入框自定义样式*/
+
+input {
+    -webkit-appearance: none;
+}
+
+
+/* 默认有灰色边框我们需要手动去掉 */
+
+button,
+input {
+    border: 0;
+    outline: none;
+}
+
+
+/*禁用长按页面时的弹出菜单*/
+
+img,
+a {
+    -webkit-touch-callout: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none
+}
+
+em,
+i {
+    font-style: normal
+}
+
+
+/* 去掉li 的小圆点 */
+
+li {
+    list-style: none
+}
+
+img {
+    /* border 0 照顾低版本浏览器 如果 图片外面包含了链接会有边框的问题 */
+    border: 0;
+    /* 取消图片底侧有空白缝隙的问题 */
+    vertical-align: middle
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.woff2?t=1633348329436') format('woff2'), url('../font/iconfont.woff?t=1633348329436') format('woff'), url('../font/iconfont.ttf?t=1633348329436') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 2.6667vw;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+iframe {
+    position: fixed;
+    top: 0;
+    height: 42.6667vw;
+    z-index: -1;
+}

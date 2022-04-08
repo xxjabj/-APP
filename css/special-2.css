@@ -1,0 +1,33 @@
+.sp2-ele {
+    width: 50.5333vw;
+    height: 50.5333vw;
+    margin: 63.3333vw auto 4vw;
+    text-align: center;
+    line-height: 50.5333vw;
+}
+
+img {
+    width: 15.16vw;
+    animation: sp2rote1 10s steps(15) infinite;
+}
+
+p {
+    font-family: XiRan-CXi;
+    font-size: 5.3333vw;
+    font-weight: 700;
+    color: #999;
+    text-align: center;
+    text-indent: 2.6667vw;
+    line-height: 2.4vw;
+}
+
+.sp2color {
+    color: #dd7d59;
+}
+
+@keyframes sp2rote1 {
+    0% {}
+    50% {
+        transform: scale(0.2)
+    }
+}

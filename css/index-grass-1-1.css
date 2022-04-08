@@ -1,0 +1,69 @@
+.ing1-1-header {
+    position: fixed;
+    width: 100%;
+    height: 17.0667vw;
+    top: 0;
+    z-index: 999;
+}
+
+.ing1-1-header div:first-child {
+    height: 5.3333vw;
+    background-color: black;
+}
+
+.ing1-1-header div:last-child {
+    display: flex;
+    height: 11.7333vw;
+    padding: 0 2.6667vw;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeeeee;
+}
+
+.ing1-1-header div img:first-of-type {
+    width: 2.1333vw;
+    height: 3.7333vw;
+}
+
+.ing1-1-header div span:nth-child(2) {
+    font-size: 3.2vw;
+    color: #000000;
+}
+
+.ing1-1-header div img:last-of-type {
+    width: 3.2vw;
+}
+
+.ing1-1-section {
+    padding: 17.0667vw 2.6667vw 0 2.6667vw;
+}
+
+.ing1-1-section div {
+    width: 60.8vw;
+    height: 42.6667vw;
+    border-radius: 10.6666vw;
+    margin: 5.3333vw 0;
+}
+
+.ing1-1-section div img {
+    width: 100%;
+}
+
+.ing1-1-section h4 {
+    font-size: 3.2vw;
+    height: 6.4vw;
+    font-weight: 700;
+}
+
+.ing1-1-section p {
+    font-size: 3.2vw;
+}
+
+.ing1-1-section p:nth-of-type(1) {
+    line-height: 9.6vw;
+    margin-bottom: 3.2vw;
+}
+
+.ing1-1-section p:nth-of-type(2) {
+    margin-bottom: 5.6vw;
+}

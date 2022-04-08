@@ -1,0 +1,52 @@
+.inv1-header {
+    position: fixed;
+    width: 100%;
+    height: 17.0667vw;
+    top: 0;
+    z-index: 999;
+}
+
+.inv1-header div:first-child {
+    height: 5.3333vw;
+    background-color: black;
+}
+
+.inv1-header div:last-child {
+    display: flex;
+    height: 11.7333vw;
+    padding: 0 2.6667vw;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeeeee;
+}
+
+.inv1-header div img:first-of-type {
+    width: 2.1333vw;
+    height: 3.7333vw;
+}
+
+.inv1-header div span:nth-child(2) {
+    font-size: 3.2vw;
+    color: #000000;
+}
+
+.inv1-header div img:last-of-type {
+    width: 4.2667vw;
+    height: 1.0667vw;
+}
+
+.inv1-section {
+    padding-top: 22.4vw;
+}
+
+.inv1-section div {
+    overflow: hidden;
+    width: 80vw;
+    height: 32.8vw;
+    margin: 0 auto 1.3333vw;
+    border-radius: 8vw;
+}
+
+.inv1-section div img {
+    width: 100%;
+}

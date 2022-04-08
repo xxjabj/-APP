@@ -1,0 +1,344 @@
+.grp-header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 17.0667vw;
+    padding: 5.3333vw 2.6667vw 0 2.6667vw;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeeeee;
+    z-index: 999;
+}
+
+.grp-header img:first-of-type {
+    width: 2.1333vw;
+    height: 3.7333vw;
+}
+
+.grp-header img:nth-child(2) {
+    width: 3.2vw;
+    margin-left: 75vw;
+}
+
+.grp-header img:last-of-type {
+    width: 4.2667vw;
+    height: 1.0667vw;
+}
+
+.grp-section {
+    padding: 19.7333vw 2.6667vw 0;
+}
+
+.grp-section .grp-article {
+    margin-bottom: 2.4vw;
+    border-bottom: solid 0.2667vw #cccccc;
+}
+
+.grp-section .grp-article .grp-title {
+    margin-bottom: 2.6667vw;
+    padding-bottom: 2.6667vw;
+    border-bottom: dashed 0.2667vw #f2f2f2;
+}
+
+.grp-section .grp-article .grp-title p {
+    font-weight: 700;
+    font-size: 3.2vw;
+    margin-bottom: 1.6vw;
+}
+
+.grp-section .grp-article .grp-title div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grp-section .grp-article .grp-title div div:first-child {
+    padding: 0.2667vw 1.6vw;
+    border-radius: 1.0667vw;
+    background-color: #dd7d59;
+    color: #ffffff;
+}
+
+.grp-section .grp-article .grp-title div div:last-child {
+    color: #999999;
+    line-height: 4.5333vw;
+}
+
+.grp-section .grp-article .grp-title div div:last-child img:first-child {
+    width: 3.2vw;
+    height: 2.4vw;
+    margin-top: 1.0667vw;
+}
+
+.grp-section .grp-article .grp-title div div:last-child img:last-child {
+    width: 3.2vw;
+    height: 3.2vw;
+    margin-top: 0.6667vw;
+}
+
+.grp-section .grp-article .grp-content .grp-upcontent {
+    margin-bottom: 2.6667vw;
+}
+
+.grp-section .grp-article .grp-content .grp-upcontent::before {
+    content: "";
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    background: url(../upload/ios_主页/mmexport1616436013652\(1\)@2x.png) no-repeat;
+    background-size: contain;
+}
+
+.grp-section .grp-article .grp-content .grp-upcontent div {
+    margin-left: 9.3333vw;
+    margin-bottom: 0.5333vw;
+    color: #666666;
+    line-height: 3.7333vw;
+}
+
+.grp-section .grp-article .grp-content .grp-upcontent div span {
+    color: #ffffff;
+    background-color: #cccccc;
+    border-radius: 0.5333vw;
+}
+
+.grp-section .grp-article .grp-content .grp-upcontent div img {
+    width: 2.6667vw;
+}
+
+.grp-section .grp-article .grp-content .grp-upcontent p {
+    margin-left: 9.3333vw;
+    font-weight: 300;
+    color: #999999;
+}
+
+.grp-section .grp-article .grp-content .grp-midcontent p {
+    font-size: 3.2vw;
+    margin-bottom: 1.3333vw;
+}
+
+.grp-section .grp-article .grp-content .grp-midcontent img {
+    overflow: hidden;
+    display: block;
+    width: 94.6667vw;
+    border-radius: 12.2667vw;
+}
+
+.grp-section .grp-article .grp-content .grp-midcontent img:first-of-type {
+    margin-bottom: 1.3333vw;
+}
+
+.grp-section .grp-article .grp-content .grp-dowcontent {
+    display: flex;
+    padding: 2.6667vw 9.2vw;
+}
+
+.grp-section .grp-article .grp-content .grp-dowcontent a {
+    flex: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: #999;
+}
+
+.grp-section .grp-article .grp-content .grp-dowcontent a img {
+    width: 6.4vw;
+}
+
+.grp-section .grp-article .grp-content .grp-dowcontent a:nth-child(3) img {
+    transform: scale(0.9);
+}
+
+.grp-section .grp-reply .grp-upreply {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6.9333vw;
+    margin-bottom: 4vw;
+}
+
+.grp-section .grp-reply .grp-upreply span {
+    height: 5.0667vw;
+}
+
+.grp-section .grp-reply .grp-upreply span:first-child {
+    color: #dd7d59;
+    border-bottom: #dd7d59 solid 1px;
+}
+
+.grp-section .grp-reply .grp-midreply .grp-midreply-1 {
+    padding-bottom: 2.6667vw;
+    margin-bottom: 3.7333vw;
+    border-bottom: dashed #f2f2f2 1px;
+}
+
+.grp-section .grp-reply .grp-midreply .grp-midreply-1::before {
+    content: "";
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    background: url(../upload/ios_主页/mmexport1616436013652\(1\)@2x.png) no-repeat;
+    background-size: contain;
+}
+
+.grp-section .grp-reply .grp-midreply .grp-midreply-1 div:first-child {
+    color: #666666;
+    margin-left: 9.3333vw;
+    margin-bottom: 1.3333vw;
+    line-height: 4.2667vw;
+}
+
+.grp-section .grp-reply .grp-midreply .grp-midreply-1 div:first-child div {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.grp-section .grp-reply .grp-midreply .grp-midreply-1 div:first-child div i {
+    color: #ffffff;
+    background-color: #cccccc;
+    border-radius: 0.5333vw;
+}
+
+.grp-section .grp-reply .grp-midreply .grp-midreply-1 div:first-child div .grp-indetify-1 {
+    background-color: #888888;
+}
+
+.grp-section .grp-reply .grp-midreply .grp-midreply-1 div:first-child div img {
+    height: 2.6667vw;
+    margin-top: 0.8vw;
+}
+
+.grp-section .grp-reply .grp-midreply .grp-midreply-1 div:first-child p {
+    margin-left: 0;
+    font-weight: 300;
+    color: #999999;
+}
+
+.grp-section .grp-reply .grp-midreply .grp-midreply-1 div:last-child p {
+    margin-left: 9.3333vw;
+}
+
+.grp-section .grp-reply .grp-midreply .grp-midreply-1:nth-child(2)::before {
+    background: url(../upload/ios_草圈–1/mm1.png) no-repeat;
+    background-size: contain;
+}
+
+.grp-section .grp-reply .grp-midreply .grp-midreply-1:nth-child(3)::before {
+    background: url(../upload/ios_草圈–1/mm2.png) no-repeat;
+    background-size: contain;
+}
+
+.grp-section .grp-reply .grp-midreply .grp-midreply-1:nth-child(3) div:last-child p:last-child {
+    height: 10.6667vw;
+    background-color: #f2f2f2;
+    border-radius: 2.6667vw;
+    padding-left: 3.4667vw;
+    line-height: 10.6667vw;
+    margin-top: 2.6667vw;
+}
+
+.grp-section .grp-reply .grp-midreply .grp-midreply-1 div:last-child p:nth-of-type(n+2) i {
+    color: #666666;
+}
+
+.grp-section .grp-reply .grp-midreply .grp-midreply-1:nth-child(4)::before {
+    background: url(../upload/ios_草圈–1/mm3.png) no-repeat;
+    background-size: contain;
+}
+
+.grp-section .grp-reply .grp-midreply .grp-midreply-1 div:last-child img {
+    width: 16.5333vw;
+    margin: 1.3333vw 1.3333vw 0 0;
+}
+
+.grp-section .grp-reply .grp-midreply .grp-midreply-1 div:last-child img:first-of-type {
+    margin-left: 9.3333vw;
+}
+
+.grp-section .grp-reply .grp-midreply .grp-midreply-1:nth-child(5)::before {
+    background: url(../upload/ios_草圈–1/mm4.png) no-repeat;
+    background-size: contain;
+}
+
+.grp-section .grp-reply .grp-midreply .grp-midreply-1 div:first-child div .grp-indetify-2 {
+    background-color: #333333;
+}
+
+.grp-section .grp-reply .grp-midreply .grp-midreply-1:nth-child(5) div:last-child div {
+    background-color: #f2f2f2;
+    border-radius: 6.1333vw;
+    padding: 3.6vw 0 3.6vw 3.4667vw;
+    margin-left: 9.3333vw;
+    margin-top: 2.6667vw;
+}
+
+.grp-section .grp-reply .grp-midreply .grp-midreply-1:nth-child(5) div:last-child div p,
+.grp-section .grp-reply .grp-midreply .grp-midreply-1:nth-child(5) div:last-child div img {
+    margin-left: 0;
+}
+
+.grp-speak,
+.grp-speak-1 {
+    display: none;
+}
+
+.grp-speak input {
+    display: block;
+    width: 41.0667vw;
+    height: 11.7333vw;
+    margin: 0 auto 5.3333vw;
+    padding-bottom: 1.3333vw;
+    background-color: #dd7d59;
+    font-size: 3.2vw;
+    border-radius: 2.9333vw;
+    color: #fff;
+    line-height: 11.7333vw;
+}
+
+.grp-speak textarea {
+    width: 94.6667vw;
+    padding: 2.6667vw 0 0 2.6667vw;
+    margin-bottom: 4vw;
+    background-color: #f5f5f5;
+    border-radius: 2.6667vw;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.grp-speak textarea::placeholder {
+    color: #ccc;
+    font-size: 2.6667vw;
+}
+
+.grp-speak-1 input {
+    display: block;
+    width: 20.5333vw;
+    height: 10.6667vw;
+    margin: 0 auto 5.3333vw;
+    padding-bottom: 1.3333vw;
+    background-color: #dd7d59;
+    font-size: 3.2vw;
+    border-radius: 1.4667vw;
+    color: #fff;
+    line-height: 10.6667vw;
+}
+
+.grp-speak-1 textarea {
+    width: 94.6667vw;
+    height: 10.6667vw;
+    padding: 2.6667vw 0 0 2.6667vw;
+    margin-bottom: 4vw;
+    background-color: #f5f5f5;
+    border-radius: 1.4667vw;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.grp-speak-1 textarea::placeholder {
+    color: #ccc;
+    font-size: 2.6667vw;
+}

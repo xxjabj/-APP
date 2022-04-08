@@ -1,0 +1,227 @@
+.inheader {
+    position: relative;
+    height: 48vw;
+    width: 100vw;
+    margin-bottom: 3.7333vw;
+    background: -webkit-linear-gradient(left top, #59ddc6 0%, #70c0e5 100%);
+    border-radius: 0 0 18.6667vw 18.6667vw;
+}
+
+.inheader h2 {
+    position: absolute;
+    top: 8.8vw;
+    left: 41.4667vw;
+    color: #ffffff;
+    font-size: 4.2667vw;
+}
+
+.inheader .focus {
+    position: absolute;
+    overflow: hidden;
+    width: 94.6667vw;
+    height: 32vw;
+    border-radius: 8vw;
+    top: 17.0667vw;
+    left: 2.6667vw;
+    /* background-color: black; */
+}
+
+.focus img {
+    width: 100%;
+}
+
+.focus ul {
+    overflow: hidden;
+    width: 500%;
+    margin-left: -100%;
+}
+
+.focus ul li {
+    float: left;
+    width: 20%;
+}
+
+.focus ol {
+    position: absolute;
+    bottom: 2.6667vw;
+    left: 41.6vw;
+    /* margin: 0; */
+}
+
+.focus ol li {
+    display: inline-block;
+    width: 2.1333vw;
+    height: 2.1333vw;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.focus ol li.current {
+    background-color: #dd7d59;
+}
+
+.innav {
+    display: flex;
+    height: 17.8667vw;
+    padding: 0 2.6667vw;
+    justify-content: space-between;
+}
+
+.innav a {
+    display: flex;
+    /* flex: 1; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.innav a img {
+    height: 11.7333vw;
+    width: 11.7333vw;
+    margin-bottom: 0.5333vw;
+}
+
+.intitle {
+    display: flex;
+    position: relative;
+    height: 5.3333vw;
+    padding: 0 2.6667vw;
+    margin-bottom: 5.3333vw;
+    justify-content: space-between;
+    line-height: 5.3333vw;
+}
+
+.intitle span {
+    display: inline-block;
+    position: absolute;
+    top: 0.8vw;
+    width: 0.5333vw;
+    height: 3.8667vw;
+    background-color: #dd7d59;
+    border-radius: 0.2666vw;
+}
+
+.intitle h3 {
+    margin-left: 1.6vw;
+    font-size: 3.7333vw;
+    font-weight: 400;
+}
+
+.intitle a {
+    color: #999
+}
+
+.incontent {
+    height: 36.5333vw;
+    width: 94.6667vw;
+    margin: 0 2.6667vw 2.9333vw 2.6667vw;
+    border-bottom: #f2f2f2 dashed 1px;
+}
+
+.incontent .upcontent {
+    position: relative;
+    height: 7.4667vw;
+    margin-bottom: 2.6667vw;
+}
+
+.incontent .upcontent::before {
+    content: "";
+    position: absolute;
+    width: 5.3333vw;
+    height: 5.3333vw;
+    top: 1.0666vw;
+    background: url(../upload/ios_主页/mmexport1616436013652\(1\)@2x.png) no-repeat;
+    background-size: contain;
+}
+
+.incontent .upcontent p:first-child {
+    color: #666666;
+    margin-left: 6.6667vw;
+}
+
+.incontent .upcontent p:last-child {
+    font-weight: 300;
+    color: #666666;
+    margin-left: 6.6667vw;
+}
+
+.incontent .upcontent p:last-child i {
+    color: #dd7d59;
+}
+
+.incontent .midcontent {
+    height: 21.0667vw;
+}
+
+.incontent .midcontent p {
+    margin-bottom: 1.3333vw;
+}
+
+.incontent .midcontent .piccontent {
+    height: 16vw;
+}
+
+.incontent .midcontent .piccontent img {
+    height: 100%;
+    margin-right: 4vw;
+}
+
+.incontent .belcontent {
+    height: 4.1333vw;
+    text-align: right;
+}
+
+.incontent .belcontent img {
+    height: 100%;
+}
+
+.incontent .belcontent i:first-of-type {
+    margin-right: 1.8667vw;
+    margin-left: -0.6667vw;
+    color: #999999;
+}
+
+.incontent .belcontent i:last-of-type {
+    margin-left: -0.6667vw;
+    color: #999999;
+}
+
+.incontentfooter {
+    font-size: 3.2vw;
+    color: #999;
+    text-align: center;
+    margin-bottom: 15.7333vw;
+}
+
+.infooter {
+    display: flex;
+    position: fixed;
+    height: 13.0667vw;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    justify-content: space-between;
+    z-index: 99999;
+    padding: 0 2.6667vw 1.0667vw 2.6667vw;
+    background: -webkit-linear-gradient(left top, #59ddc6 0%, #70c0e5 100%);
+}
+
+.infooter .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.infooter .item img {
+    width: 6.4vw;
+    height: 6.4vw;
+}
+
+.infooter .item p {
+    color: #fff;
+}
+
+.infooter .item:first-child p {
+    color: #dd7d59;
+}

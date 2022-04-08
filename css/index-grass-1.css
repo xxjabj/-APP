@@ -1,0 +1,62 @@
+.ing1-header {
+    position: fixed;
+    width: 100%;
+    height: 17.0667vw;
+    top: 0;
+    z-index: 999;
+}
+
+.ing1-header div:first-child {
+    height: 5.3333vw;
+    background-color: black;
+}
+
+.ing1-header div:last-child {
+    display: flex;
+    height: 11.7333vw;
+    padding: 0 2.6667vw;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeeeee;
+}
+
+.ing1-header div img:first-of-type {
+    width: 2.1333vw;
+    height: 3.7333vw;
+}
+
+.ing1-header div span:nth-child(2) {
+    font-size: 3.2vw;
+    color: #000000;
+}
+
+.ing1-header div img:last-of-type {
+    width: 4.2667vw;
+    height: 1.0667vw;
+}
+
+.ing1-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 17.0667vw 2.6667vw 0 2.6667vw;
+}
+
+.ing1-section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 21.3333vw;
+    height: 21.3333vw;
+    border-radius: 3.7333vw;
+    margin-top: 5.3333vw;
+}
+
+.ing1-section div img {
+    width: 100%;
+    margin-bottom: 2.6667vw;
+}
+
+.ing1-section div span {
+    font-size: 3.2vw;
+}

@@ -1,0 +1,113 @@
+.mem-header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 17.0667vw;
+    padding: 5.3333vw 18.4vw 0 18.4vw;
+    justify-content: space-between;
+    top: 0;
+    background: -webkit-linear-gradient(left top, #59ddc6 0%, #70c0e5 100%);
+    z-index: 999;
+}
+
+.mem-header span {
+    font-size: 3.2vw;
+    line-height: 11.7333vw;
+    color: #ffffff
+}
+
+.mem-header span:first-child {
+    color: #dd7d59;
+}
+
+.mem-section {
+    padding: 19.7333vw 2.6667vw 0 2.6667vw;
+}
+
+.mem-section div {
+    margin-bottom: 2.4vw;
+    padding-bottom: 2.4vw;
+    border-bottom: #f2f2f2 dashed 1px;
+    position: relative;
+}
+
+.mem-section div p:first-child {
+    position: relative;
+    margin-left: 7.7333vw;
+    font-size: 3.2vw;
+    margin-bottom: 1.3333vw;
+}
+
+.mem-section div p:first-child i {
+    position: absolute;
+    right: 0;
+    top: 0.6667vw;
+    color: #ccc;
+    font-size: 2.6667vw;
+}
+
+.mem-section div p:first-child span {
+    background-color: #ccc;
+    color: #ffffff;
+    font-size: 2.6667vw;
+    border-radius: 0.5333vw;
+}
+
+.mem-section div p:last-child {
+    margin-left: 7.7333vw;
+    font-size: 2.6667vw;
+    color: #999;
+}
+
+.mem-section div::before {
+    content: "";
+    display: inline-block;
+    width: 6.4vw;
+    height: 6.4vw;
+    position: absolute;
+    background: url(../upload/ios_消息/src=http___pic1.win4000.com_wallpaper_3_59afae7e25@2x.png) no-repeat;
+    background-size: contain;
+}
+
+.mem-section div:nth-child(2)::before {
+    background: url(../images/ios_消息/系统消息.png) no-repeat;
+    background-size: contain;
+}
+
+.mem-section div:nth-child(3)::before {
+    background: url(../images/ios_消息/草圈消息.png) no-repeat;
+    background-size: contain;
+}
+
+.mem-infooter {
+    display: flex;
+    position: fixed;
+    height: 13.0667vw;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    justify-content: space-between;
+    z-index: 99999;
+    padding: 0 2.6667vw 1.0667vw 2.6667vw;
+    background: -webkit-linear-gradient(left top, #59ddc6 0%, #70c0e5 100%);
+}
+
+.mem-infooter .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.mem-infooter .item img {
+    width: 6.4vw;
+    height: 6.4vw;
+}
+
+.mem-infooter .item p {
+    color: #fff;
+}
+
+.mem-infooter .item:nth-child(4) p {
+    color: #dd7d59;
+}

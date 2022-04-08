@@ -1,0 +1,125 @@
+.mef1-header {
+    position: fixed;
+    width: 100%;
+    height: 17.0667vw;
+    top: 0;
+    z-index: 999;
+}
+
+.mef1-header div:first-child {
+    height: 5.3333vw;
+    background-color: #eeeeee;
+}
+
+.mef1-header div:last-child {
+    display: flex;
+    height: 11.7333vw;
+    padding: 0 2.6667vw;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeeeee;
+}
+
+.mef1-header div img:first-of-type {
+    width: 2.1333vw;
+    height: 3.7333vw;
+}
+
+.mef1-header div span:nth-child(2) {
+    font-size: 3.2vw;
+    color: #000000;
+}
+
+.mef1-header div img:last-of-type {
+    width: 4.2667vw;
+    height: 1.0667vw;
+}
+
+.mef1-section {
+    padding: 25.0667vw 2.6667vw 0 2.6667vw;
+}
+
+.mef1-section div {
+    margin-bottom: 8vw;
+    /* line-height: 8.8vw; */
+}
+
+.mef1-section div:last-child {
+    margin-bottom: 13.3333vw;
+}
+
+.mef1-section div span {
+    padding: 2.1333vw;
+    border-radius: 2.1333vw;
+    font-size: 3.2vw;
+}
+
+.mef1-section .mef1me span {
+    background-color: #dd7d59;
+}
+
+.mef1-section .mef1him span {
+    background-color: #f2f2f2;
+}
+
+.mef1-section .mef1me img {
+    margin-left: 2.1333vw;
+    margin-bottom: 1.0667vw;
+}
+
+.mef1-section .mef1me img:last-of-type {
+    width: 8.8vw;
+}
+
+.mef1-section .mef1me {
+    text-align: right;
+}
+
+.mef1-section .mef1him img {
+    margin-right: 2.1333vw;
+    margin-bottom: 1.0667vw;
+}
+
+.mef1-section .mef1him img:first-of-type {
+    width: 8.8vw;
+}
+
+.mef1-section .mef1him {
+    text-align: left;
+}
+
+.mef1-section .mef1me .mef1meimg {
+    height: 14.6667vw;
+}
+
+.mef1-section .mef1-date {
+    font-weight: 300;
+    color: #999999;
+    text-align: center;
+}
+
+.mef1-talk {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10.6667vw;
+    bottom: 0;
+    padding: 1.3333vw 8vw;
+    z-index: 999;
+    background-color: #eeeeee;
+    line-height: 8vw;
+}
+
+.mef1-talk input {
+    height: 8vw;
+    width: 66.6667vw;
+    background-color: #ffffff;
+    border-radius: 2vw;
+    font-size: 3.2vw;
+    text-indent: 2vw;
+}
+
+.mef1-talk .iconfont {
+    font-size: 5.3333vw;
+}

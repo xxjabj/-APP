@@ -1,0 +1,102 @@
+.mea-header {
+    position: fixed;
+    width: 100%;
+    height: 17.0667vw;
+    padding: 5.3333vw 2.6667vw 0 2.6667vw;
+    top: 0;
+    background: -webkit-linear-gradient(left top, #59ddc6 0%, #70c0e5 100%);
+    z-index: 999;
+}
+
+.mea-header h3 {
+    font-size: 4.2667vw;
+    font-weight: 400;
+    text-align: center;
+    line-height: 11.7333vw;
+    color: #ffffff
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.mea-section {
+    padding-top: 19.7333vw;
+    font-size: 3.2vw;
+}
+
+.mea-section div:first-child {
+    display: flex;
+    justify-content: space-between;
+    height: 16vw;
+    margin-bottom: 2.6667vw;
+    padding: 0 2.6667vw;
+    font-size: 3.2vw;
+    font-weight: 700;
+    line-height: 16vw;
+    background-color: #fff;
+}
+
+.mea-section div:first-child span:first-child img {
+    width: 8.5333vw;
+    margin-right: 2.9333vw;
+}
+
+.mea-section div .mea-arrows img {
+    width: 2.4vw;
+}
+
+.mea-section div:nth-child(n+1) {
+    padding: 0 2.6667vw;
+    background-color: #fff;
+    margin-bottom: 2.6667vw;
+}
+
+.mea-section div:nth-child(n+1) p {
+    display: flex;
+    justify-content: space-between;
+    height: 10.6667vw;
+    line-height: 10.6667vw;
+    border-bottom: dashed 0.1333vw #f2f2f2;
+}
+
+.mea-section div:nth-child(2) p:nth-child(3) i {
+    color: #cccccc;
+}
+
+.mea-section div:nth-child(n+1) p:nth-child(3) {
+    border: none;
+}
+
+.mea-infooter .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.mea-infooter {
+    display: flex;
+    position: fixed;
+    height: 13.0667vw;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    justify-content: space-between;
+    z-index: 99999;
+    padding: 0 2.6667vw 1.0667vw 2.6667vw;
+    background: -webkit-linear-gradient(left top, #59ddc6 0%, #70c0e5 100%);
+}
+
+.mea-infooter .item img {
+    width: 6.4vw;
+    height: 6.4vw;
+}
+
+.mea-infooter .item p {
+    color: #fff;
+}
+
+.mea-infooter .item:nth-child(5) p {
+    color: #dd7d59;
+}

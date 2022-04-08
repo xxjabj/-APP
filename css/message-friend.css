@@ -1,0 +1,95 @@
+.mef-header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 17.0667vw;
+    padding: 5.3333vw 18.4vw 0 18.4vw;
+    justify-content: space-between;
+    top: 0;
+    background: -webkit-linear-gradient(left top, #59ddc6 0%, #70c0e5 100%);
+    z-index: 999;
+}
+
+.mef-header span {
+    font-size: 3.2vw;
+    line-height: 11.7333vw;
+    color: #ffffff
+}
+
+.mef-header span:nth-child(2) {
+    color: #dd7d59;
+}
+
+.mef-section {
+    padding: 19.7333vw 2.6667vw 0 2.6667vw;
+}
+
+.mef-section div {
+    margin-bottom: 2.4vw;
+    padding-bottom: 2.4vw;
+    border-bottom: #f2f2f2 dashed 1px;
+    position: relative;
+}
+
+.mef-section div p:first-child {
+    position: relative;
+    margin-left: 7.7333vw;
+    font-size: 3.2vw;
+    margin-bottom: 1.3333vw;
+}
+
+.mef-section div p:first-child span {
+    background-color: #ccc;
+    color: #ffffff;
+    font-size: 2.6667vw;
+    border-radius: 0.5333vw;
+}
+
+.mef-section div p:last-child {
+    margin-left: 7.7333vw;
+    font-size: 2.6667vw;
+    color: #999;
+}
+
+.mef-section div::before {
+    content: "";
+    display: inline-block;
+    width: 6.4vw;
+    height: 6.4vw;
+    position: absolute;
+    background: url(../upload/ios_好友/椭圆\ 14\(1\)@2x.png) no-repeat;
+    background-size: contain;
+}
+
+.mef-infooter {
+    display: flex;
+    position: fixed;
+    height: 13.0667vw;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    justify-content: space-between;
+    z-index: 99999;
+    padding: 0 2.6667vw 1.0667vw 2.6667vw;
+    background: -webkit-linear-gradient(left top, #59ddc6 0%, #70c0e5 100%);
+}
+
+.mef-infooter .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.mef-infooter .item img {
+    width: 6.4vw;
+    height: 6.4vw;
+}
+
+.mef-infooter .item p {
+    color: #fff;
+}
+
+.mef-infooter .item:nth-child(4) p {
+    color: #dd7d59;
+}
